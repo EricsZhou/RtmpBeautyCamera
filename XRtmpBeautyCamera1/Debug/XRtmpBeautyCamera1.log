@@ -1,0 +1,25 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  Reading Qt configuration (C:/Qt/Qt5.14.2/5.14.2/msvc2017/bin/qmake)
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(496,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  uic xrtmpbeautycamera.ui
+  rcc xrtmpbeautycamera.qrc
+  moc xrtmpbeautycamera1.h
+  XVideoCapture.cpp
+  XAudioRecord.cpp
+  XBilateralFilter.cpp
+  XController.cpp
+  XData.cpp
+  XDataThread.cpp
+  XFilter.cpp
+  XMediaEncode.cpp
+  XRtmp.cpp
+  xrtmpbeautycamera1.cpp
+  main.cpp
+  qrc_xrtmpbeautycamera.cpp
+  moc_xrtmpbeautycamera1.cpp
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  XRtmpBeautyCamera1.vcxproj -> C:\Users\Erics\source\repos\XRtmpBeautyCamera1\bin\XRtmpBeautyCamera1.exe

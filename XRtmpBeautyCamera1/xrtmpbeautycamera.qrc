@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/XRtmpBeautyCamera">
+        <file>src/01.jpg</file>
+        <file>src/02.jpg</file>
+        <file>src/03.png</file>
+    </qresource>
+</RCC>

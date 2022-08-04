@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>XRtmpBeautyCameraClass</class>
+ <widget class="QWidget" name="XRtmpBeautyCameraClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>898</width>
+    <height>689</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>XRtmpBeautyCamera</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>src/logo.jpg</normaloff>src/logo.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel
+{
+	
+	border-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+	color: rgb(0, 0, 0);
+	font: 75 12pt &quot;黑体&quot;;
+	border-radius:10px;
+}
+QWidget
+{
+	
+	background-image: url(:/XRtmpBeautyCamera/src/01.jpg);
+}
+
+QPushButton:hover
+ { 
+	border-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(120, 120, 120, 255), stop:0.495 rgba(39, 39, 39, 255), stop:0.505 rgba(39,39, 39, 255), stop:1 rgba(120, 120,120, 255));
+ border: none;
+border-radius:15px;
+color: rgb(0, 0, 0);
+font: 75 12pt &quot;黑体&quot;;
+ }
+QPushButton:!hover
+ { 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(39, 39, 39, 255), stop:0.495 rgba(120, 120, 120, 255), stop:0.505 rgba(120,120, 120, 255), stop:1 rgba(39, 39,39, 255));
+ border: none;
+border-radius:15px;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+ }
+
+QLineEdit
+{
+	background-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+border-radius:10px;
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+
+}
+QComboBox
+{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+	color: rgb(0, 0, 0);
+border-radius:10px;
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>901</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel
+{
+	
+	border-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+	color: rgb(0, 0, 0);
+	font: 75 12pt &quot;黑体&quot;;
+	border-radius:10px;
+}
+QWidget
+{
+	
+	background-image: url(:/XRtmpBeautyCamera/src/01.jpg);
+}
+
+QPushButton:hover
+ { 
+	border-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(120, 120, 120, 255), stop:0.495 rgba(39, 39, 39, 255), stop:0.505 rgba(39,39, 39, 255), stop:1 rgba(120, 120,120, 255));
+ border: none;
+border-radius:15px;
+color: rgb(0, 0, 0);
+font: 75 12pt &quot;黑体&quot;;
+ }
+QPushButton:!hover
+ { 
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(39, 39, 39, 255), stop:0.495 rgba(120, 120, 120, 255), stop:0.505 rgba(120,120, 120, 255), stop:1 rgba(39, 39,39, 255));
+ border: none;
+border-radius:15px;
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+ }
+
+QLineEdit
+{
+	background-image: url(:/XRtmpBeautyCamera/src/02.jpg);
+border-radius:10px;
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+
+}
+QComboBox
+{
+background-color: rgb(255, 255, 255);
+font: 75 12pt &quot;黑体&quot;;
+	color: rgb(0, 0, 0);
+border-radius:10px;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>推流RTMP   URL ：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>650</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>美颜贴纸选择   ：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>650</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>美颜磨皮级别   ：</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>600</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>输入URL或者数字：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="outUrl">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>550</y>
+      <width>681</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rtmp://192.168.88.129/live</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inUrl">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>600</y>
+      <width>681</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rtsp://192.168.31.66:8554/live</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startButton">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>640</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始推流</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_3">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>650</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>熊猫贴纸</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>树懒贴纸</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="face">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>650</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>一级美颜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>五级美颜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>四级美颜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>二级美颜</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>三级美颜</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>861</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/XRtmpBeautyCamera/src/03.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="xrtmpbeautycamera.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>startButton</sender>
+   <signal>clicked()</signal>
+   <receiver>XRtmpBeautyCameraClass</receiver>
+   <slot>Stream()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>813</x>
+     <y>664</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1120</x>
+     <y>656</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>Stream()</slot>
+ </slots>
+</ui>
